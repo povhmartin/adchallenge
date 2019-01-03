@@ -1,0 +1,77 @@
+@font-face { font-family: PlayfairDisplay; font-weight: normal; font-style: normal; }
+
+@font-face { font-family: UbuntuLight; font-weight: light; font-style: normal; }
+
+body { background-color: #ffffff; }
+
+.block { display: block; }
+
+.region-header { padding: 70px 70px; }
+
+.region-header .block-system-branding-block { float: left; }
+
+.region-header .block-system-branding-block img { height: 22px; }
+
+.region-header nav { float: right; }
+
+.region-header nav ul { list-style: none; margin: 0; }
+
+.region-header nav ul li { display: inline-block; }
+
+.region-header nav ul li a { display: inline-block; font-family: PlayfairDisplay; text-transform: uppercase; font-size: 14px; line-height: 22px; padding-right: 100px; color: #626262; text-decoration: none; }
+
+.region-header nav ul li a.is-active { color: #626262; text-decoration: underline; }
+
+.region-header nav ul li:last-child a { padding-right: 0; }
+
+.fixed { position: fixed; top: 0; left: 0; width: 100%; }
+
+.fixed .region-header { padding: 20px 70px; height: 22px; background-color: #000; }
+
+.fixed .region-header nav ul li a { color: #fff; }
+
+.fixed .region-header nav ul li a a.is-active { color: #fff; }
+
+.view-frontpage { padding: 0 90px; }
+
+.view-frontpage .views-row { width: 50%; height: auto; float: left; }
+
+.view-frontpage .views-row article { padding: 0 30px; margin-bottom: 30px; }
+
+.view-frontpage .views-row article h2 a { color: #626262; font-size: 30px; line-height: 56px; font-family: PlayfairDisplay; text-decoration: none; }
+
+.view-frontpage .views-row article p { font-family: PlayfairDisplay; color: #626262; font-size: 14px; line-height: 22px; }
+
+.view-frontpage .views-row article img { display: block; height: auto; width: 100%; margin: 10px 0; }
+
+.view-frontpage .views-row article .field__item a { font-family: UbuntuLight; color: #626262; font-size: 14px; line-height: 22px; text-transform: uppercase; text-decoration: none; }
+
+.view-frontpage .views-row:nth-child(odd) { clear: both; }
+
+.page-node-type-article .layout-content, .path-news .layout-content { padding-top: 10px; width: 70%; heiht: auto; float: left; }
+
+.page-node-type-article .layout-content .region-content, .path-news .layout-content .region-content { padding-left: 150px; padding-right: 40px; }
+
+.page-node-type-article .layout-content .region-content h1, .path-news .layout-content .region-content h1 { color: #626262; font-size: 30px; line-height: 56px; font-family: PlayfairDisplay; text-decoration: none; }
+
+.page-node-type-article .layout-content .region-content p, .page-node-type-article .layout-content .region-content .field__label, .path-news .layout-content .region-content p, .path-news .layout-content .region-content .field__label { font-family: PlayfairDisplay; color: #626262; font-size: 14px; line-height: 22px; }
+
+.page-node-type-article .layout-content .region-content img, .path-news .layout-content .region-content img { display: block; height: auto; width: 100%; margin: 10px 0; }
+
+.page-node-type-article .layout-content .region-content a, .path-news .layout-content .region-content a { font-family: UbuntuLight; color: #626262; font-size: 14px; line-height: 22px; text-transform: uppercase; text-decoration: none; }
+
+.page-node-type-article .layout-sidebar-second, .path-news .layout-sidebar-second { padding-top: 30px; width: 29%; heiht: auto; float: right; }
+
+.page-node-type-article .layout-sidebar-second h2, .path-news .layout-sidebar-second h2 { color: #b4ad9e; font-size: 14px; line-height: 22px; font-family: UbuntuLight; text-transform: uppercase; }
+
+.page-node-type-article .layout-sidebar-second ul li, .path-news .layout-sidebar-second ul li { color: #626262; margin-bottom: 20px; }
+
+.page-node-type-article .layout-sidebar-second ul li a, .path-news .layout-sidebar-second ul li a { font-family: PlayfairDisplay; color: #626262; font-size: 16px; line-height: 28px; text-decoration: none; }
+
+footer { clear: both; }
+
+footer .region-footer { padding: 30px 70px 40px; height: 30px; background-color: #f0f0f0; }
+
+footer .region-footer ul li { display: inline-block; padding-right: 15px; }
+
+footer .region-footer a { color: #000; text-decoration: none; font-family: PlayfairDisplay; font-size: 14px; }

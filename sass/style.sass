@@ -1,0 +1,189 @@
+@import fonts
+
+
+$background-color: #ffffff
+
+body
+  background-color: $background-color
+
+.block
+  display: block
+
+.region-header
+  padding: 70px 70px
+
+  .block-system-branding-block
+    float: left
+
+    img
+      height: 22px
+
+  nav
+    float: right
+
+    ul
+      list-style: none
+      margin: 0
+
+      li
+        display: inline-block
+
+        a
+          display: inline-block
+          font-family: PlayfairDisplay
+          text-transform: uppercase
+          font-size: 14px
+          line-height: 22px
+          padding-right: 100px
+          color: #626262
+          text-decoration: none
+
+        a.is-active
+          color: #626262
+          text-decoration: underline
+       
+      li:last-child 
+        a
+          padding-right: 0
+
+.fixed
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+
+  .region-header
+    padding: 20px 70px
+    height: 22px
+    background-color: #000
+  
+    nav ul li a
+      color: #fff
+    
+      a.is-active
+        color: #fff
+
+.view-frontpage
+  padding: 0 90px
+
+  .views-row 
+    width: 50%
+    height: auto
+    float: left
+  
+    article 
+      padding: 0 30px
+      margin-bottom: 30px
+
+      h2 a
+        color: #626262 
+        font-size: 30px
+        line-height: 56px
+        font-family: PlayfairDisplay
+        text-decoration: none
+      
+      p
+        font-family: PlayfairDisplay
+        color: #626262 
+        font-size: 14px
+        line-height: 22px
+
+      img
+        display: block
+        height: auto
+        width: 100%
+        margin: 10px 0
+
+      .field__item a
+        font-family: UbuntuLight
+        color: #626262 
+        font-size: 14px
+        line-height: 22px
+        text-transform: uppercase
+        text-decoration: none
+    
+.view-frontpage .views-row:nth-child(odd)
+  clear: both
+
+.page-node-type-article , .path-news
+
+  .layout-content
+    padding-top: 10px
+    width: 70%
+    heiht: auto
+    float: left
+
+    .region-content
+      padding-left: 150px
+      padding-right: 40px
+
+      h1
+        color: #626262 
+        font-size: 30px
+        line-height: 56px
+        font-family: PlayfairDisplay
+        text-decoration: none
+      
+      p, .field__label
+        font-family: PlayfairDisplay
+        color: #626262 
+        font-size: 14px
+        line-height: 22px
+
+      img
+        display: block
+        height: auto
+        width: 100%
+        margin: 10px 0
+      
+      a
+        font-family: UbuntuLight
+        color: #626262 
+        font-size: 14px
+        line-height: 22px
+        text-transform: uppercase
+        text-decoration: none
+
+
+  .layout-sidebar-second
+    padding-top: 30px
+    width: 29%
+    heiht: auto
+    float: right
+
+    h2
+      color: #b4ad9e 
+      font-size: 14px
+      line-height: 22px
+      font-family: UbuntuLight
+      text-transform: uppercase
+
+    ul li     
+      color: #626262
+      margin-bottom: 20px
+
+      a
+        font-family: PlayfairDisplay
+        color: #626262 
+        font-size: 16px
+        line-height: 28px
+        text-decoration: none
+
+footer
+  clear: both
+
+  .region-footer
+    padding: 30px 70px 40px
+    height: 30px
+    background-color: #f0f0f0
+
+    ul li
+      display: inline-block
+      padding-right: 15px
+    
+    a
+      color: #000
+      text-decoration: none
+      font-family: PlayfairDisplay
+      font-size: 14px
+
